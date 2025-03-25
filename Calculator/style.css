@@ -1,0 +1,107 @@
+#calculator{
+  border: 1px solid gray;
+  padding:10px;
+  border-radius:5px;
+}
+#inputbox{
+  min-height: 70px;
+  border:1px solid gray;
+  border-radius:5px;
+  font-size:30px;
+  padding:5px;
+  background-color:#313131;
+  color:white;
+}
+main{
+  background-color:#212121;
+  color:white;
+  display:flex;
+  justify-content:center;
+}
+body
+{
+  background-color:#212121;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-items:center;
+}
+.buttons
+{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  justify-content:center;
+  max-width:370px;
+  border-radius:5px;
+  border:1px solid gray;
+  background-color:#313131;
+}
+.cal_btn
+{
+  font-size:20px;
+  padding:15px 30px;
+  margin:10px 15px;
+  border-radius:5px;
+  font-weight:bold;
+  border: 1px solid darkgray;
+  background-color:#414141;
+  color:white;
+}
+.cal_btnequal{
+  width:175px;
+}
+.historyclear
+{
+  font-size:14px;
+  padding:5px 30px;
+  text-align:center;
+  width:60%;
+}
+.cal_btn:hover
+{
+  scale:1.1;
+  background-color:#313131;
+  color:hotpink;
+}
+.cal_btn:active
+{
+  scale:.9;
+  border:1px solid darkgray;
+}
+.history{
+  min-width:200px;
+  margin-left:10px;
+  border-radius:5px;
+  border:1px solid darkgray;
+}
+h2{
+  text-align:center;
+}
+.history_container{
+  margin:5px;
+  border:1px solid gray;
+}
+.history_container{
+  scroll-behavior:smooth;
+  overflow-y:auto;
+
+  scroll-width:thin;
+  scrollbar-color:#616161 rgba(128,128,128,0);
+  max-height:450px;
+  border:1px solid gray;
+  border-radius:5px;
+  font-size:18px;
+  padding:5px;
+  background-color:#313131;
+  color:white;
+  text-wrap:wrap;
+
+}
+footer{
+  font-family:'Courier New',Courier,monospace;
+  width: 600px;
+  margin: 20px;
+  align-self: center;
+
+}
